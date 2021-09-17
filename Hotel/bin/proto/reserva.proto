@@ -1,0 +1,17 @@
+syntax = "proto2";
+
+package tutorial;
+
+option java_package = "br.quixada.ufc.si.classProto";
+option java_outer_classname = "ReservaProtos";
+
+message Reserva{
+    optional string cpfHospede = 1;
+    optional int32 numeroQuarto = 2;
+    optional string dataIni = 3;
+    optional string dataFim = 4;
+}
+
+message ReservaBook{
+    repeated Reserva reserva = 1;
+}

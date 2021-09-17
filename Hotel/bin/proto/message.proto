@@ -1,0 +1,19 @@
+syntax = "proto2";
+
+package tutorial;
+
+option java_package = "br.quixada.ufc.si.classProto";
+option java_outer_classname = "MessageProtos";
+
+message Message {
+    optional int32 type = 1;
+    optional int32 id = 2;
+    optional string obfReference = 3;
+    optional string methodId = 4;
+    optional bytes arguments = 5;
+
+}
+
+message MessageBook{
+    repeated Message message = 1;
+}

@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="si">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/br/quixada/ufc/si/joda-time-2.10.10.jar!/" />
+      <root url="jar://$PROJECT_DIR$/br/quixada/ufc/si/protobuf-java-3.15.6.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

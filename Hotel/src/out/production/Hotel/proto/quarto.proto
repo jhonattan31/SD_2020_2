@@ -1,0 +1,17 @@
+syntax = "proto2";
+
+package tutorial;
+
+option java_package = "br.quixada.ufc.si.classProto";
+option java_outer_classname = "QuartoProtos";
+
+message Quarto {
+    optional int32 numero = 1;
+    optional double valorDiaria = 2;
+    optional string descricao = 3;
+    optional bool disponivel = 4;
+}
+
+message QuartoBook {
+  repeated Quarto quarto = 1;
+}

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="protobuf-java-3.15.6">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/src/br/quixada/ufc/si/protobuf-java-3.15.6.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
